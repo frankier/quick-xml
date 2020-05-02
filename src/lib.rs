@@ -120,7 +120,7 @@ extern crate serde;
 #[cfg(feature = "serialize")]
 pub mod de;
 mod errors;
-mod escape;
+pub mod escape;
 pub mod events;
 mod reader;
 #[cfg(feature = "serialize")]
